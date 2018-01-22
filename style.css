@@ -1,0 +1,132 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+}
+
+#navList {
+    overflow: hidden;
+    position: fixed;
+    margin-top: 0;
+    padding-top: 1%;
+    top: 0;
+    padding-bottom: .75%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#navList li a:hover {
+    color: #000000;
+}
+
+#navList li {
+    display: inline;
+    list-style: none;
+    font-size: 110%;
+}
+
+#navList li a {
+    text-decoration: none;
+    color: #5F696B;
+}
+
+.navButtons {
+    padding: 3%;
+}
+
+#secondButton {
+    margin-left: 60%;
+}
+
+#homeButton {
+    margin: 2%;
+}
+
+#midContent {
+    margin-top: 3%;
+    background-color: #5FCF80;
+    padding: 10%;
+    color: #FFFFFF;
+}
+
+#bottomContent {
+    margin-top: 5%;
+}
+
+#bottomContent h2 {
+    text-align: center;
+}
+
+#bottomContent table {
+    width:80%;
+    margin: 5% 10% 5% 10%;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quoter {
+    text-align: right;
+    font-family: 'Lobster' , cursive;
+}
+
+.middleQuote {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fillerRow {
+    visibility: hidden;
+}
+
+#animalPicTable {
+    text-align: center;
+    margin: 5% 15%;
+    width: 70%;
+}
+.animalPic img {
+    width: 70%;
+}
+
+#designerContent {
+    text-align: center;
+    background-color: #5FCF80;
+    color: #FFFFFF;
+    padding-top: 3%;
+}
+
+#designerContent img {
+    border-radius: 50%;
+    margin: 2%
+}
+
+.designerQuote {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#footerContent {
+    text-align: center;
+    padding: 5% 0%;
+}
+
+#footerTable {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    table-layout: fixed;
+}
+
+#footerTable td {
+    text-align: center;
+}
+
+#footerTable td a{
+    text-decoration: none;
+    color: #5F696B;
+}
+
+#footerTable td a:hover{
+    color: #000000;
+}
