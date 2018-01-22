@@ -25,12 +25,13 @@ body {
 }
 
 #navList li a {
+	margin: 3%;
     text-decoration: none;
     color: #5F696B;
 }
 
 .navButtons {
-    padding: 3%;
+    padding: 0%;
 }
 
 #secondButton {
@@ -162,14 +163,15 @@ body {
 }
 
 #animalTableTwo {
-    margin: 5%;
-    text-align: right;
-    width: 50%;
-    margin-left: 45%;
+	margin: 5%;
+}
+
+#animalTableTwo td {
+	width: 33%;
 }
 
 #animalTableTwo tr td img{
-    height: 50%
+    height: 50%;
 }
 
 #animalListTwo li {
