@@ -7,9 +7,7 @@ body {
     overflow: hidden;
     position: fixed;
     margin-top: 0;
-    padding-top: 1%;
     top: 0;
-    padding-bottom: .75%;
     width: 100%;
     background-color: #FFFFFF;
 }
@@ -19,22 +17,22 @@ body {
 }
 
 #navList li {
-    display: inline;
+    display: inline-flex;
     list-style: none;
     font-size: 110%;
 }
 
 #navList li a {
-	margin: 3%;
     text-decoration: none;
     color: #5F696B;
 }
 
 .navButtons {
-    padding: 0%;
+    margin: 0% 50%;
 }
 
-#secondButton {
+.navRight {
+    display: inline-flex;
     margin-left: 60%;
 }
 
@@ -189,4 +187,16 @@ body {
 
 #lionFactLower {
     background-color: #BFA47A;
+}
+
+@media only screen and (max-width: 1680px) {
+    .navRight {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .navRight {
+        margin-left: 0;
+    }
 }
