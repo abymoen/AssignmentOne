@@ -3,41 +3,39 @@ body {
     margin: 0;
 }
 
-#navList {
+.navList {
+    margin-top: 0;
+    display: flex;
     overflow: hidden;
     position: fixed;
-    margin-top: 0;
     top: 0;
-    width: 100%;
     background-color: #FFFFFF;
+    width: 100%;
 }
 
-#navList li a:hover {
+.innerFlex {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+}
+
+.innerFlex li{
+    margin-top: 0.5%;
+}
+
+.navList li a:hover {
     color: #000000;
 }
 
-#navList li {
-    display: inline-flex;
+.navList li {
     list-style: none;
-    font-size: 110%;
+    font-size: 120%;
+    padding: 1.5%
 }
 
-#navList li a {
+.navList li a {
     text-decoration: none;
     color: #5F696B;
-}
-
-.navButtons {
-    margin: 0% 50%;
-}
-
-.navRight {
-    display: inline-flex;
-    margin-left: 60%;
-}
-
-#homeButton {
-    margin: 2%;
 }
 
 #midContent {
