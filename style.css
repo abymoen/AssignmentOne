@@ -20,7 +20,7 @@ body {
 }
 
 .innerFlex li{
-    margin-top: 0.5%;
+    margin-top: 0.37%;
 }
 
 .navList li a:hover {
@@ -143,7 +143,8 @@ body {
 }
 
 #animalTableOne tr td img{
-    height: 50%
+    height: 15em;
+	transition: 0.3s ease-in-out;
 }
 
 #animalListOne li {
@@ -167,7 +168,8 @@ body {
 }
 
 #animalTableTwo tr td img{
-    height: 50%;
+    height: 15em;
+	transition: 0.3s ease-in-out;
 }
 
 #animalListTwo li {
@@ -185,4 +187,38 @@ body {
 
 #lionFactLower {
     background-color: #BFA47A;
+}
+
+#animalTableTwo tr td img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	cursor: crosshair;
+	-ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+	
+#animalTableOne tr td img:hover{
+	box-shadow: 10px 10px 5px #aaaaaa;
+	cursor: crosshair;
+	-ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(8deg);
+}
+
+@media screen and (max-width: 1080px) {
+	.innerFlex {
+    display: flex;
+    justify-content: flex-start;
+    width: 85%;
+	}
+}
+
+@-moz-document url-prefix() {
+    .navList li{
+		margin-top: 25%;
+	}
+	
+	.navList {
+		height: 5.2%;
+	}
 }
