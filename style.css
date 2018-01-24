@@ -186,15 +186,3 @@ body {
 #lionFactLower {
     background-color: #BFA47A;
 }
-
-@media only screen and (max-width: 1680px) {
-    .navRight {
-        margin-left: 30%;
-    }
-}
-
-@media only screen and (max-width: 1080px) {
-    .navRight {
-        margin-left: 0;
-    }
-}
